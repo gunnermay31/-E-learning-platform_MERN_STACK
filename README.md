@@ -34,6 +34,32 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 ## Cloudinary Integration ☁️
 <code title="Mongodb"><img height="40" src="https://github.com/gunnermay31/-E-learning-platform_MERN_STACK/blob/main/screenshots/Tech%20stack%20logo/cloudinary-logo.jpg"></code>
 
+## NPM packages used ☁️
+npm i cors
+npm i express
+npm i mongoose
+npm i cookie-parser
+npm i jsonwebtoken
+npm i cloudinary
+npm i dotenv
+npm i nodemon
+npm i bcrypt
+npm i nodemailer
+npm i razorpay
+npm i node-schedule
+npm i express-fileuploader
+npm i otp-generator
+npm i crypto
+npm i concurrently
+npm i react-router-dom
+npm i react icons
+npm install react-router-dom
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install axios
+npm install react-hook-form
+npm i react-hot-toast
+
 <hr/>
 
 
