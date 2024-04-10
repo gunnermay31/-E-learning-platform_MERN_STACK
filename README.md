@@ -35,30 +35,30 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 <code title="Mongodb"><img height="40" src="https://github.com/gunnermay31/-E-learning-platform_MERN_STACK/blob/main/screenshots/Tech%20stack%20logo/cloudinary-logo.jpg"></code>
 
 ## NPM packages used ☁️
-npm i cors
-npm i express
-npm i mongoose
-npm i cookie-parser
-npm i jsonwebtoken
-npm i cloudinary
-npm i dotenv
-npm i nodemon
-npm i bcrypt
-npm i nodemailer
-npm i razorpay
-npm i node-schedule
-npm i express-fileuploader
-npm i otp-generator
-npm i crypto
-npm i concurrently
-npm i react-router-dom
-npm i react icons
-npm install react-router-dom
-npm install react-redux
-npm install @reduxjs/toolkit
-npm install axios
-npm install react-hook-form
-npm i react-hot-toast
+npm i cors<br/>
+npm i express<br/>
+npm i mongoose<br/>
+npm i cookie-parser<br/>
+npm i jsonwebtoken<br/>
+npm i cloudinary<br/>
+npm i dotenv<br/>
+npm i nodemon<br/>
+npm i bcrypt<br/>
+npm i nodemailer<br/>
+npm i razorpay<br/>
+npm i node-schedule<br/>
+npm i express-fileuploader<br/>
+npm i otp-generator<br/>
+npm i crypto<br/>
+npm i concurrently<br/>
+npm i react-router-dom<br/>
+npm i react icons<br/>
+npm install react-router-dom<br/>
+npm install react-redux<br/>
+npm install @reduxjs/toolkit<br/>
+npm install axios<br/>
+npm install react-hook-form<br/>
+npm i react-hot-toast<br/>
 
 <hr/>
 
@@ -183,44 +183,45 @@ Utilized several React hooks for efficient state management and dynamic behavior
 ## 📚 **API Design:**:
 
 The StudyNotion platform's API is designed following the REST architectural style. The API is implemented using Node.js and Express.js. It uses JSON for data exchange and follows standard HTTP request methods such as GET, POST, PUT, and DELETE.
-Sample list of API endpoints and their functionalities:
-/api/auth/signup (POST) - Create a new user (student or instructor) account.
-/api/auth/login (POST) – Log in using existing credentials and generate a JWT token.
-/api/auth/verify-otp (POST) - Verify the OTP sent to the user's registered email.
-/api/auth/forgot-password (POST) - Send an email with a password reset link to the registered email.
-/api/courses (GET) - Get a list of all available courses.
-/api/courses/:id (GET) - Get details of a specific course by ID.
-/api/courses (POST) - Create a new course.
-/api/courses/:id (PUT) - Update an existing course by ID.
-/api/courses/:id (DELETE) - Delete a course by ID.
-/api/courses/:id/rate (POST) - Add a rating (out of 5) to a course.
-Sample API requests and responses:
-GET /api/courses: Get all courses
-Response: A list of all courses in the database
-GET /api/courses/:id: Get a single course by ID
-Response: The course with the specified ID
-POST /api/courses: Create a new course
-Request: The course details in the request body
-Response: The newly created course
-PUT /api/courses/:id: Update an existing course by ID
-Request: The updated course details in the request body
-Response: The updated course
-DELETE /api/courses/:id: Delete a course by ID
-Response: A success message indicating that the course has been deleted.
-In conclusion, the REST API design for the StudyNotion ed-tech platform is a crucial part of the project. The API endpoints and their functionalities are designed to ensure seamless communication between the front-end and back-end of the application. By following RESTful principles, the API will be scalable, maintainable, and reliable. The sample API requests and responses provided above illustrate how each endpoint will function and what kind of data it will accept or return. With this API design, StudyNotion will be able to provide a smooth user experience while ensuring security and stability.
-Deployment:
-The deployment process for the StudyNotion ed-tech platform will involve hosting the application on various cloud-based services. The front end will be deployed using Vercel, a popular hosting service for static sites built with React. The back-end will be hosted on Render or Railway, two cloud-based hosting services for applications built with Node.js and MongoDB. Media files will be hosted on Cloudinary, a cloud-based media management platform, and the database will be hosted on MongoDB Atlas, a fully managed cloud database service.
-The hosting environment and infrastructure for the StudyNotion platform will ensure scalability, security, and reliability. Vercel provides a fast and scalable hosting environment for the front end, while Render or Railway provide a scalable and reliable infrastructure for the back end. Cloudinary provides reliable storage for media files with features like automatic image optimization and transformation, while MongoDB Atlas provides a highly available and secure database environment with features like automatic scaling and disaster recovery. 
+<br/>
+Sample list of API endpoints and their functionalities:<br/>
+/api/auth/signup (POST) - Create a new user (student or instructor) account.<br/>
+/api/auth/login (POST) – Log in using existing credentials and generate a JWT token.<br/>
+/api/auth/verify-otp (POST) - Verify the OTP sent to the user's registered email.<br/>
+/api/auth/forgot-password (POST) - Send an email with a password reset link to the registered email.<br/>
+/api/courses (GET) - Get a list of all available courses.<br/>
+/api/courses/:id (GET) - Get details of a specific course by ID.<br/>
+/api/courses (POST) - Create a new course.<br/>
+/api/courses/:id (PUT) - Update an existing course by ID.<br/>
+/api/courses/:id (DELETE) - Delete a course by ID.<br/>
+/api/courses/:id/rate (POST) - Add a rating (out of 5) to a course.<br/>
+Sample API requests and responses:<br/>
+GET /api/courses: Get all courses<br/>
+Response: A list of all courses in the database<br/>
+GET /api/courses/:id: Get a single course by ID<br/>
+Response: The course with the specified ID<br/>
+POST /api/courses: Create a new course<br/>
+Request: The course details in the request body<br/>
+Response: The newly created course<br/>
+PUT /api/courses/:id: Update an existing course by ID<br/>
+Request: The updated course details in the request body<br/>
+Response: The updated course<br/>
+DELETE /api/courses/:id: Delete a course by ID<br/>
+Response: A success message indicating that the course has been deleted.<br/>
+In conclusion, the REST API design for the StudyNotion ed-tech platform is a crucial part of the project. The API endpoints and their functionalities are designed to ensure seamless communication between the front-end and back-end of the application. By following RESTful principles, the API will be scalable, maintainable, and reliable. The sample API requests and responses provided above illustrate how each endpoint will function and what kind of data it will accept or return. With this API design, StudyNotion will be able to provide a smooth user experience while ensuring security and stability.<br/>
+Deployment:<br/>
+The deployment process for the StudyNotion ed-tech platform will involve hosting the application on various cloud-based services. The front end will be deployed using Vercel, a popular hosting service for static sites built with React. The back-end will be hosted on Render or Railway, two cloud-based hosting services for applications built with Node.js and MongoDB. Media files will be hosted on Cloudinary, a cloud-based media management platform, and the database will be hosted on MongoDB Atlas, a fully managed cloud database service.<br/>
+The hosting environment and infrastructure for the StudyNotion platform will ensure scalability, security, and reliability. Vercel provides a fast and scalable hosting environment for the front end, while Render or Railway provide a scalable and reliable infrastructure for the back end. Cloudinary provides reliable storage for media files with features like automatic image optimization and transformation, while MongoDB Atlas provides a highly available and secure database environment with features like automatic scaling and disaster recovery. <br/>
 
-### Frameworks, Libraries, and Tools used: ⚙️
+### Frameworks, Libraries, and Tools used: ⚙️<br/>
 
 The back end of StudyNotion uses a range of frameworks, libraries, and tools to ensure its functionality and performance, including:
-Node.js: Node.js is used as the primary framework for the back end.
-MongoDB: MongoDB is used as the primary database, providing a flexible and scalable data storage solution.
-Express.js: Express.js is used as a web application framework, providing a range of features and tools for building web applications.
-JWT: JWT (JSON Web Tokens) are used for authentication and authorization, providing a secure and reliable way to manage user credentials.
-Bcrypt: Bcrypt is used for password hashing, adding an extra layer of security to user data.
-Mongoose: Mongoose is used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
+Node.js: Node.js is used as the primary framework for the back end.<br/>
+MongoDB: MongoDB is used as the primary database, providing a flexible and scalable data storage solution.<br/>
+Express.js: Express.js is used as a web application framework, providing a range of features and tools for building web applications.<br/>
+JWT: JWT (JSON Web Tokens) are used for authentication and authorization, providing a secure and reliable way to manage user credentials.<br/>
+Bcrypt: Bcrypt is used for password hashing, adding an extra layer of security to user data.<br/>
+Mongoose: Mongoose is used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.<br/>
 
 
 
