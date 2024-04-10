@@ -89,7 +89,7 @@ Here is a high-level diagram that illustrates the architecture of the E Learning
 
 <hr/>
 
-#### The front end of E Learning has all the necessary pages that an ed-tech platform should have. Some of these pages are: 
+#### The front end of E Learning Ed-Tech platform's has all the necessary pages that an ed-tech platform should have. Some of these pages are: 
 
 For Students:
 - **Homepage 🏠:** A brief introduction to the platform with links to the course list and user details and random background.
@@ -113,14 +113,14 @@ For Instructors:
 The back-end of the platform is built using NodeJS and ExpressJS, providing APIs for the front-end to consume. These APIs include functionalities such as user authentication, course creation, and course consumption. The back-end also handles the logic for processing and storing the course content and user data.
 
 Description of the Back-end Architecture:
-E Learning uses a monolithic architecture, with the backend built using Node.js and Express.js, and MongoDB as the primary database. Monolithic architecture refers to a design approach where all the modules of the application are combined into a single large program, with a single codebase, to enable better control, security, and performance.
+E Learning Ed-Tech platform's uses a monolithic architecture, with the backend built using Node.js and Express.js, and MongoDB as the primary database. Monolithic architecture refers to a design approach where all the modules of the application are combined into a single large program, with a single codebase, to enable better control, security, and performance.
 Node.js is a popular JavaScript runtime that allows us to run JavaScript code outside of the browser. Express.js is a web application framework that simplifies the process of building web applications in Node.js. MongoDB is a popular NoSQL database that allows for flexible data storage and retrieval, making it a suitable choice for complex applications like E Learning.
 Features and Functionalities of the Back-end:
-The back end of E Learning provides a range of features and functionalities, including:
+The back end of E Learning Ed-Tech platform'sprovides a range of features and functionalities, including:
 User authentication and authorization: Students and instructors can sign up and log in to the platform using their email addresses and password. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
 Course management: Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
 Payment Integration: Students will purchase and enrol on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
-Cloud-based media management: E Learning uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+Cloud-based media management: E Learning Ed-Tech platform'suses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 Markdown formatting: Course content in document format is stored in Markdown format, which allows for easier display and rendering on the front end.
 
 #### Back-end Features
@@ -128,14 +128,14 @@ Markdown formatting: Course content in document format is stored in Markdown for
 - **User Authentication and Authorization 🔐:** Students and instructors can sign up and log in to the platform using their email addresses and passwords. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
 - **Course Management 🛠️:** Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
 - **Payment Integration 💳:** Students will purchase and enroll in courses by completing the checkout flow, followed by Razorpay integration for payment handling.
-- **Cloud-based Media Management ☁️ :** E Learning uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+- **Cloud-based Media Management ☁️ :** E Learning Ed-Tech platform's uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 - **Markdown Formatting ✍️:** Course content in document format is stored in Markdown format, allowing for easier display and rendering on the front-end.
 
 
 
 #### Data Models and Database Schema
 
-The back-end of E Learning uses several data models and database schemas to manage data, including:
+The back-end of E Learning Ed-Tech platform's uses several data models and database schemas to manage data, including:
 
 - **Student Schema 🧑‍🎓:** Includes fields such as name, email, password, and course details for each student.
 - **Instructor Schema 👩‍🏫:** Includes fields such as name, email, password, and course details for each instructor.
@@ -182,7 +182,7 @@ Utilized several React hooks for efficient state management and dynamic behavior
 
 ## 📚 **API Design:**:
 
-The E Learning platform's API is designed following the REST architectural style. The API is implemented using Node.js and Express.js. It uses JSON for data exchange and follows standard HTTP request methods such as GET, POST, PUT, and DELETE.
+The E Learning  Ed-Tech platform's API is designed following the REST architectural style. The API is implemented using Node.js and Express.js. It uses JSON for data exchange and follows standard HTTP request methods such as GET, POST, PUT, and DELETE.
 <br/>
 Sample list of API endpoints and their functionalities:<br/>
 /api/auth/signup (POST) - Create a new user (student or instructor) account.<br/>
@@ -208,14 +208,14 @@ Request: The updated course details in the request body<br/>
 Response: The updated course<br/>
 DELETE /api/courses/:id: Delete a course by ID<br/>
 Response: A success message indicating that the course has been deleted.<br/>
-In conclusion, the REST API design for the E Learning ed-tech platform is a crucial part of the project. The API endpoints and their functionalities are designed to ensure seamless communication between the front-end and back-end of the application. By following RESTful principles, the API will be scalable, maintainable, and reliable. The sample API requests and responses provided above illustrate how each endpoint will function and what kind of data it will accept or return. With this API design, E Learning will be able to provide a smooth user experience while ensuring security and stability.<br/>
+In conclusion, the REST API design for the E Learning ed-tech platform is a crucial part of the project. The API endpoints and their functionalities are designed to ensure seamless communication between the front-end and back-end of the application. By following RESTful principles, the API will be scalable, maintainable, and reliable. The sample API requests and responses provided above illustrate how each endpoint will function and what kind of data it will accept or return. With this API design, E Learning Ed-Tech Platform will be able to provide a smooth user experience while ensuring security and stability.<br/>
 Deployment:<br/>
 The deployment process for the E Learning ed-tech platform will involve hosting the application on various cloud-based services. The front end will be deployed using Vercel, a popular hosting service for static sites built with React. The back-end will be hosted on Render or Railway, two cloud-based hosting services for applications built with Node.js and MongoDB. Media files will be hosted on Cloudinary, a cloud-based media management platform, and the database will be hosted on MongoDB Atlas, a fully managed cloud database service.<br/>
-The hosting environment and infrastructure for the E Learning platform will ensure scalability, security, and reliability. Vercel provides a fast and scalable hosting environment for the front end, while Render or Railway provide a scalable and reliable infrastructure for the back end. Cloudinary provides reliable storage for media files with features like automatic image optimization and transformation, while MongoDB Atlas provides a highly available and secure database environment with features like automatic scaling and disaster recovery. <br/>
+The hosting environment and infrastructure for the E Learning Ed-Tech Platform platform will ensure scalability, security, and reliability. Vercel provides a fast and scalable hosting environment for the front end, while Render or Railway provide a scalable and reliable infrastructure for the back end. Cloudinary provides reliable storage for media files with features like automatic image optimization and transformation, while MongoDB Atlas provides a highly available and secure database environment with features like automatic scaling and disaster recovery. <br/>
 
 ### Frameworks, Libraries, and Tools used: ⚙️<br/>
 
-The back end of E Learning uses a range of frameworks, libraries, and tools to ensure its functionality and performance, including:
+The back end of E Learning Ed-Tech Platform uses a range of frameworks, libraries, and tools to ensure its functionality and performance, including:
 Node.js: Node.js is used as the primary framework for the back end.<br/>
 MongoDB: MongoDB is used as the primary database, providing a flexible and scalable data storage solution.<br/>
 Express.js: Express.js is used as a web application framework, providing a range of features and tools for building web applications.<br/>
